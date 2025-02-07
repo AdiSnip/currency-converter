@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(73, 255, 137);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.back{
+    margin: 20px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 30vw;
+    background-color: rgb(247, 255, 104);
+    border-radius: 30px;
+}
+
+h1{
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    background-color: rgba(5, 0, 71, 0.997);
+}
+.currency{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(247, 255, 104);
+    border: 5px solid rgb(247, 255, 104);
+}
+.from{
+    width: 40%;
+}
+.to{
+    width: 40%;
+}
+.from-image{
+    background-color: rgb(247, 255, 104);
+}
+.to-image{
+    background-color: rgb(247, 255, 104);
+}
+#from-flag{
+    background-color: rgb(247, 255, 104);
+}
+#to-flag{
+    background-color: rgb(247, 255, 104);
+}
+.currency-name{
+    border: 2px solid rgb(247, 255, 104);
+    width: 100%;
+    height: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(247, 255, 104);
+}
+.select-currency-name{
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.currency-value{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.value{
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    border: 5px solid rgb(255, 250, 106);
+    background-color: rgb(255, 255, 255);
+}
+.mainoutput{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.output{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 250, 106);
+    font-size: 30px;
+}
+.exchange{
+    background-color: rgb(247, 255, 104);
+}
